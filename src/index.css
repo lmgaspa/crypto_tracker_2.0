@@ -1,11 +1,56 @@
 body {
-  margin: 0;
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to right, #e0f3f3, #e8ffff);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.light {
+  background: linear-gradient(to left, #e0f3f3, #d0e3e3);
+  color: black;
+}
+
+/* dark theme */
+.dark {
+  background: linear-gradient(to left, #2d2c2cd4, #050505);
+  color: white;
+}
+
+.theme-icon.light svg {
+  color: black;
+}
+
+.theme-icon.dark svg {
+  color: white;
+}
+
+
+.box {
+  background: linear-gradient(to left, #ffb1be, #9442ff);
+  border-radius: 10px;
+}
+
+.box-text {
+  font-size: 2rem;
+}
+
+.box-link {
+  font-size: 2rem;
+  color: rgb(47, 1, 61);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .box-text, .box-link {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .box-text, .box-link {
+    font-size: 1rem;
+  }
 }
