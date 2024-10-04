@@ -3,6 +3,10 @@
 ## Project Overview
 Crypto Tracker is a React-based application that provides real-time tracking of cryptocurrency prices and their 24-hour price changes. This application is built using React and Bootstrap for styling, and it fetches real-time data from the Binance API. The project includes features such as filtering cryptocurrencies by categories (MEME, TOP, UTILS, and ALL), and displaying cryptocurrency prices in a visually appealing way with periodic updates.
 
+### License
+
+This project is licensed under the MIT License - see the License.mit for details.
+
 ## Features
 
 - **Real-Time Data:** 
